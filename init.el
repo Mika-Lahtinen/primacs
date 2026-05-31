@@ -6,6 +6,7 @@
              (setq line-number-mode t)
              (setq column-number-mode t)
              (setq inhibit-startup-screen t)
+	     (which-key-mode)
 	     :hook
 	     (prog-mode .
 		(lambda ()
